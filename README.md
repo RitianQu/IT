@@ -151,7 +151,7 @@
 	apt-get source 软件包　：　下载源码
 	apt-get upgrade : 升级软件包
 ### 如果安装失败。输入以下命令进行调节，解决依赖关系后继续安装
-	sudo apt-get install -f
+	sudo apt-get install -f 自动补全配置文件包
 
 ### FTP(简单文件传输协议)服务器和用户的安装
 ###### １．检查TFTP服务器和客户端的安装状态
