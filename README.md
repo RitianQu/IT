@@ -273,7 +273,8 @@
 ### grep : 检索文件内容 ：根据内容找到关键字
 ### grep 关键字 文件  ： 在文件中找到有关键字的行
 ### grep -n 关键字  文件 ： 查找的关键字在哪一行
-### grep -R 关键字  文件 ： 
+### grep -R 关键字  文件 ：
+### grep -e \blinux\b : 只查找\b之间的字符
 
 #### tree： 列出目录机器文件夹
 
@@ -297,3 +298,10 @@
 	mkdir download
 	cd download
 	网页输入IP 192.168.1.101/download    就能实现在download下载的功能了（IP根据电脑的IP进行改动）
+#### find 查找 -name filename
+     find . -type d 查找当前目录下的所有文件夹
+     find . -type f 查找当前目录下的所有文件
+#### ln 建立软链接 源文件名 链接文件名
+#### cut -d 指定分割符号  -f 指定区域  
+
+     
